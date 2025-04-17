@@ -1,5 +1,14 @@
 {
-  "routes": [
-    { "src": "/[^.]+", "dest": "/", "status": 200 }
-  ]
+  "version": 2,
+  "projects": {
+    "buyer-app": {
+      "root": "buyer-app"
+    },
+    "dealer-platform": {
+      "root": "dealer-platform"
+    },
+    "admin-platform": {
+      "root": "admin-platform"
+    }
+  }
 }
